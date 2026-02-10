@@ -1,0 +1,130 @@
+-- ========================================
+-- 21-Day SQL Challenge: Day 1 - SELECT Basics
+-- MySQL Sakila Database (source: LinkedIn interview prep PDFs)
+-- ========================================
+
+use sakila;
+show tables;
+
+-- ========================================
+-- Warm-up SELECT
+-- ========================================
+
+# 1. Select the Sakila database and list all tables
+use sakila;
+show tables;
+
+# 2. Show the first 10 rows from actor
+Select * from actor
+Limit 10;
+
+# 3. From actor, return only actor_id, first_name, last_name
+Select 	
+	actor_id, 
+    first_name, 
+    last_name
+From actor;
+
+-- ========================================
+-- WHERE filters
+-- ========================================
+# 4. Find all actors whose last_name is exactly 'DAVIS'
+Select 
+	actor_id, 
+    first_name, 
+    last_name
+From actor
+Where last_name = 'DAVIS';
+
+# 5. Find actors whose last_name starts with 'A'
+Select 
+	actor_id, 
+    first_name, 
+    last_name
+From actor
+Where last_name LIKE 'A%';
+
+# 6. From film, list films where rating = 'PG-13' and show film_id, title, rating
+Select 
+	film_id,
+    title,
+    rating
+From film
+Where rating = 'PG-13';
+
+# 7. From film, list films with rental_rate between 0.99 and 2.99 (inclusive)
+Select 
+	film_id,
+    title,
+    rental_rate
+From film
+Where rental_rate BETWEEN 0.99 AND 2.99; 		## My Answer was "rental_rate >= 0.99 AND rental_rate <= 2.99;"
+
+# 8. From film, list films with length >= 120 minutes; show title, length
+Select
+	film_id,
+    title,
+    length
+From film
+Where length >= 120;
+
+# 9. From customer, list customers where active = 1; show customer_id, first_name, last_name, active
+Select 
+	customer_id,
+    first_name,
+    last_name,
+    active
+From customer
+Where active = 1;
+
+# 10. From rental, find all rentals that are not returned yet (i.e., return_date IS NULL); show rental_id, inventory_id, customer_id, rental_date, return_date.
+Select
+	rental_id,
+    inventory_id, 
+    customer_id,
+    rental_date,
+    return_date
+From rental
+Where return_date IS NULL;
+
+-- ========================================
+-- ORDER BY + LIMIT
+-- ========================================
+# 11. Show the 5 longest films (highest length) from film, returning title and length
+Select
+	film_id,
+    title,
+    length
+From film
+Order By length DESC 
+Limit 5;
+
+# 12. Show the 10 most recent rentals from rental ordered by rental_date descending
+Select
+	rental_id,
+    rental_date,
+    customer_id
+From rental
+Order by rental_date DESC
+Limit 10;
+
+-- ========================================
+-- DISTINCT + Aggregates
+-- ========================================
+# 13. List all distinct film ratings available in film
+Select DISTINCT rating
+From film;
+
+# 14. Count how many films exist per rating (rating-wise film count)
+SELECT 
+	ANY_VALUE(rating) AS rating, 			# rating is a non-aggregated column	
+	COUNT(*) AS RatingWiseCount
+FROM film
+GROUP BY rating;
+
+# 15. Count how many customers exist per store_id in customer (store-wise customer count).
+Select 
+	store_id,
+	count(*) as customercount
+from customer
+Group By store_id;
