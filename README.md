@@ -5,3 +5,4 @@ Perfect for data analyst interviews practice.
 Daily 10~15 questions
 
 Day 1- Basic SELECT practice
+Day 2- Advanced_WHERE
