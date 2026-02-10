@@ -4,5 +4,7 @@ Daily SQL practice questions adapted from LinkedIn interview prep resources (500
 Perfect for data analyst interviews practice.
 Daily 10~15 questions
 
+[![SQL](https://img.shields.io/badge/SQL-blue?style=flat&logo=mysql&logoColor=white)](https://github.com/anuraghazra/github-readme-stats)
+
 Day 1- Basic SELECT practice
 Day 2- Advanced_WHERE
