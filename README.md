@@ -11,3 +11,7 @@ Day 1- Basic SELECT practice
 Day 2- Advanced_WHERE
 
 Day 3: WHERE + LIMIT + CASE 
+
+Day 4: LIMIT Mastery + Subquery Filters + Prep for Aggregates
+
+
