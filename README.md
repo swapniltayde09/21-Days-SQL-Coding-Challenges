@@ -17,3 +17,6 @@ Day 4: LIMIT Mastery + Subquery Filters + Prep for Aggregates
 Day 5: GROUP BY + HAVING + Aggregate Mastery
 
 Day 6: JOIN Mastery (All Types)
+
+Day 7: JOIN + GROUP BY + HAVING
+
