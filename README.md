@@ -21,3 +21,5 @@ Day 6: JOIN Mastery (All Types)
 Day 7: JOIN + GROUP BY + HAVING
 
 Day 8: String & Date Functions Mastery
+
+Day 9: Mixed Aggregates
