@@ -23,3 +23,5 @@ Day 7: JOIN + GROUP BY + HAVING
 Day 8: String & Date Functions Mastery
 
 Day 9: Mixed Aggregates
+
+Day 10: Data Modifications + CASE + NULL Handling
