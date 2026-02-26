@@ -29,3 +29,8 @@ Day 10: Data Modifications + CASE + NULL Handling
 Day 11: UPDATE/DELETE 
 
 Day 12: Data Cleaning (NULLs, duplicates, data quality)
+
+Day 13: Window Functions + Advanced Data Cleaning 
+
+Day 14: Window LAG/LEAD + Running Totals
+
