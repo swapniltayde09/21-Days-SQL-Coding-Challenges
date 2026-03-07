@@ -34,3 +34,5 @@ Day 13: Window Functions + Advanced Data Cleaning
 
 Day 14: Window LAG/LEAD + Running Totals
 
+Day 15: CTEs + Subqueries + Window combinations
+
