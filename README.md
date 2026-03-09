@@ -36,3 +36,7 @@ Day 14: Window LAG/LEAD + Running Totals
 
 Day 15: CTEs + Subqueries + Window combinations
 
+Day 16: Database Design + Constraints + Analytics
+
+Day 17: Ecommerce Database Design + Performance Queries
+
