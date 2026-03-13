@@ -6,7 +6,8 @@ Daily 10~15 questions
 
 [![SQL](https://img.shields.io/badge/SQL-blue?style=flat&logo=mysql&logoColor=white)](https://github.com/anuraghazra/github-readme-stats)
 
-## **Week 1: SQL Foundations (Sakila DB)**
+## Weekly Progress
+### **Week 1: SQL Foundations (Sakila DB)**
 - Day 1: Basic SELECT practice
 - Day 2: Advanced_WHERE
 - Day 3: WHERE + LIMIT + CASE 
