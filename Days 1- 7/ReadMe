@@ -1,1 +1,6 @@
-
+Daily 15-query grind building core SQL skills using MySQL Sakila sample database.
+- Days 1-3: SELECT/WHERE/ORDER BY/LIMIT/DISTINCT (actor/film/customer basics)
+- Days 4-6: INNER/LEFT JOINs + Subqueries (staff-payment-customer revenue chains)  
+- Day 7: GROUP BY/HAVING mastery (category revenue ₹1.1L vs Books ₹15k)
+Total: 105+ queries | Skills: Filtering → Multi-table analytics
+Files: Day01_BasicSELECT.sql ... Day07_Aggregates.sql
