@@ -10,16 +10,16 @@ Daily 10~15 questions
 - Day 1: Basic SELECT practice
 - Day 2: Advanced_WHERE
 - Day 3: WHERE + LIMIT + CASE 
-- Day 4: LIMIT Mastery + Subquery Filters + Prep for Aggregates
+- Day 4: LIMIT Practice + Subquery Filters + Prep for Aggregates
 - Day 5: GROUP BY + HAVING + Aggregate Mastery
-- Day 6: JOIN Mastery (All Types)
+- Day 6: JOIN Practice (All Types)
 - Day 7: JOIN + GROUP BY + HAVING
 
-### **Week 2: Analytics Mastery**
-- Day 8: String & Date Functions Mastery
+### **Week 2: Analytics Practice**
+- Day 8: String & Date Functions Practice
 - Day 9: Mixed Aggregates
 - Day 10: Data Modifications + CASE + NULL Handling
-- Day 11: UPDATE/DELETE 
+- Day 11: Update/ Delete 
 - Day 12: Data Cleaning (NULLs, duplicates, data quality)
 - Day 13: Window Functions + Advanced Data Cleaning 
 - Day 14: Window LAG/LEAD + Running Totals
