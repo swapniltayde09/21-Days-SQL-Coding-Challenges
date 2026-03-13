@@ -1,1 +1,5 @@
-
+Intermediate SQL → Advanced analytics (string/date functions → window functions).
+- Days 8-9: String/Date + Mixed Aggregates (title lengths, revenue by weekday)
+- Days 10-12: DML + Data Cleaning (self-join dedupe, COALESCE NULLs)
+- Days 13-14: Window Functions (RANK salaries, LAG MoM growth, running totals)
+Key Win: From basic SUM() → SUM() OVER() time-series analytics
