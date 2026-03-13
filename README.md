@@ -63,6 +63,6 @@ Daily 10~15 questions
 ## 🚀 **Run It**
 ```bash
 # MySQL Workbench
-USE sakila;           # Days 1-15
-USE sales_analytics_2026;  # Capstone
-CALL GetSalesReport(2026); # Monthly dashboard!
+Use sakila;           # Days 1-15
+Use sales_analytics_2026;  # Capstone
+Call GetSalesReport(2026); # Monthly dashboard!
