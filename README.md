@@ -6,37 +6,46 @@ Daily 10~15 questions
 
 [![SQL](https://img.shields.io/badge/SQL-blue?style=flat&logo=mysql&logoColor=white)](https://github.com/anuraghazra/github-readme-stats)
 
-Day 1: Basic SELECT practice
+- Day 1: Basic SELECT practice
 
-Day 2: Advanced_WHERE
+- Day 2: Advanced_WHERE
 
-Day 3: WHERE + LIMIT + CASE 
+- Day 3: WHERE + LIMIT + CASE 
 
-Day 4: LIMIT Mastery + Subquery Filters + Prep for Aggregates
+- Day 4: LIMIT Mastery + Subquery Filters + Prep for Aggregates
 
-Day 5: GROUP BY + HAVING + Aggregate Mastery
+- Day 5: GROUP BY + HAVING + Aggregate Mastery
 
-Day 6: JOIN Mastery (All Types)
+- Day 6: JOIN Mastery (All Types)
 
-Day 7: JOIN + GROUP BY + HAVING
+- Day 7: JOIN + GROUP BY + HAVING
 
-Day 8: String & Date Functions Mastery
+- Day 8: String & Date Functions Mastery
 
-Day 9: Mixed Aggregates
+- Day 9: Mixed Aggregates
 
-Day 10: Data Modifications + CASE + NULL Handling
+- Day 10: Data Modifications + CASE + NULL Handling
 
-Day 11: UPDATE/DELETE 
+- Day 11: UPDATE/DELETE 
 
-Day 12: Data Cleaning (NULLs, duplicates, data quality)
+- Day 12: Data Cleaning (NULLs, duplicates, data quality)
 
-Day 13: Window Functions + Advanced Data Cleaning 
+- Day 13: Window Functions + Advanced Data Cleaning 
 
-Day 14: Window LAG/LEAD + Running Totals
+- Day 14: Window LAG/LEAD + Running Totals
 
-Day 15: CTEs + Subqueries + Window combinations
+- Day 15: CTEs + Subqueries + Window combinations
 
-Day 16: Database Design + Constraints + Analytics
+- Day 16: Database Design + Constraints + Analytics
 
-Day 17: Ecommerce Database Design + Performance Queries
+- Day 17: Ecommerce Database Design + Performance Queries
+
+- Day 18: Finance Tracker (Constraints + Triggers + Analytics)
+
+- Day 19: Mixed Review Project – Log Analyzer
+
+- Day 20 — SQL Performance Tuning Project
+
+
+
 
