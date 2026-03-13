@@ -35,12 +35,13 @@ Daily 10~15 questions
 - Day 20: SQL Performance Tuning Project
 - Day 21: Sales Analytics Platform (Capstone Project)
 
-## 🎯 **Capstone Highlights (Day 21)**
-✅ Mumbai customers MoM LAG() revenue growth
-✅ Category profit: Electronics ₹80k >> Books ₹15k
-✅ Gold tier RANK #1 (Swapnil ₹72k)
-✅ TRIGGER: Laptop stock 15→13 auto-deduct
-✅ VIEW monthly_profit + PROC GetSalesReport(2026)
+🏆 Day 21 Capstone Highlights
+1️⃣ Mumbai Revenue: +25% MoM [LAG screenshot]
+2️⃣ Profit Leader: Electronics ₹80k [Q10 output]  
+3️⃣ Top Customer: Swapnil #1 Gold ₹72k [RANK]
+4️⃣ Auto Stock: TRIGGER 15→13 [test]
+5️⃣ Dashboard: monthly_profit VIEW [output]
+6️⃣ API Ready: GetSalesReport(2026) PROC
 
 ## 🛠️ **Tech Stack Unlocked**
  120+ SQL queries (Sakila + 5x custom DBs)
